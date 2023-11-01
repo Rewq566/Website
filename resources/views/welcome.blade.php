@@ -56,7 +56,7 @@
         </section>
 
 
-        <!-- Selection of the week -->
+        <!-- Selection of the week https://swiperjs.com/get-started -->
         <section class="container mx-auto">
             
             <h2 class="text-5xl py-20 text-stone-600" >The selection of the week</h2>
