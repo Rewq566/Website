@@ -3,18 +3,10 @@
 @tailwind utilities;
 
 
-h2 {
-    font-weight: bold;
-}
 
 .photographer-info {
     background: linear-gradient(90deg, rgba(255,255,255,0.40379901960784315) 0%, rgba(255,255,255,0) 100%);;
-    position: absolute;
     width: 100%;
     bottom: 0;
 }
 
-.blauwe-footer {
-    background-color: blue;
-    height: 200px;
-}
