@@ -7,6 +7,7 @@
 
         <title>Nordicman Home</title>
 
+
     </head>
 
 
@@ -54,14 +55,16 @@
             </div>
         </section>
 
+        
+
 
         <!-- Selection of the week https://swiperjs.com/get-started -->
         <section class="container mx-auto">
             
             <h2 class="text-5xl py-20 text-stone-600" >The selection of the week</h2>
             <div class="flex  justify-center items-center" >
-                <img class="" src="https://www.nordic.nl/wp-content/uploads/2020/04/Zomerverblijf-in-een-Zweedse-blokhut-1.jpg" alt="">
-            </div>
+                <!--<img class="" src="https://www.nordic.nl/wp-content/uploads/2020/04/Zomerverblijf-in-een-Zweedse-blokhut-1.jpg" alt=""> --> 
+            </div>    
         </section>
 
         <!-- See more -->
@@ -89,7 +92,7 @@
 
         <!--Photographers-->
         <section class="container mx-auto">
-            <h2 class="text-5xl py-10 text-stone-600">Photographers</h2>
+            <h2 class="text-5xl py-10 text-stone-600">search</h2>
             <div class="flex h-16 bg-blue-950 items-center justify-center mx-auto rounded-md">
                 <input type="text" placeholder="Search..">
             </div>
@@ -98,7 +101,7 @@
         -->
             <div class="grid grid-columns-4 gap-8">
 
-
+        
                 <!-- 1 profiel -->
                 <div class="w-80 my-8 rounded-md border-solid border-2 pb-5">
                     <div class="h-64 bg-center bg-cover rounded-t-md relative" style="background-image: url('http://placekitten.com/384/320')">
@@ -117,12 +120,13 @@
                     
                     <div class="flex flex-col items-center mx-auto w-[40%] my-6">
                         
-                        <div class="flex w-full items-center m-4">
-                            <div class="flex-shrink-0">
+                        <div class=" w-full items-center m-4">
+                            <div class="flex">
                                 <img class="" src="{{ asset('images/Upload.svg') }}" alt="upload svg">
+                                <h3 class="">Uploads</h3>
                             </div>
                             <div class="mx-2 text-center">
-                                <h3 class="">Uploads</h3>
+                                
                                 <span>1234</span>
                             </div>
                         </div>    
@@ -142,14 +146,7 @@
                                 <img class="my-2" src="{{ asset('images/Stars.svg') }}" alt="rating svg">
                                 <button class="px-8 py-2 border-solid border-2 rounded-md">Visit website</button>
                             </div>
-                        </div>
-
-
-                    
-
-                    
-
-                
+                    </div>
 
                 </div>
 
@@ -167,7 +164,7 @@
                 <p class="my-5 mr-5">Our photographers possess a deep appreciation for the Nordic spirit, allowing us to infuse our work with genuine enthusiasm and a unique perspective. With years of experience and an eye for detail, we bring forth the hidden gems of Scandinavia, whether it's the dancing colors of the Northern Lights or the serene presence of wildlife in their natural habitats.</p>
                 <p class="my-5 mr-5">Client satisfaction is at the core of our values, and we take pride in delivering photography that surpasses expectations. Whether you seek inspiration, wish to experience the magic of Scandinavia through art, or simply yearn to explore the wonders of this region, we invite you to embark on this visual journey with us.</p>
             </div>
-            <div class="flex grid grid-cols-2">
+            <div class="flex grid-cols-2">
                 <img class="" src="{{ asset('images/Sheep.jpg') }}" alt="">
                 <div class="">
                     <h2 class="text-3xl py-16 text-stone-600 text-center">Contact us today to discover the charm of this captivating land through our lens.</h2>
